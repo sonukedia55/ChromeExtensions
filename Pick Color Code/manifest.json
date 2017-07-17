@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "Pick Color Code",
+  "description": "Choose Your Own #ColorCode for your Web-Designing.",
+  "version": "1.0",
+
+  "icons": {
+    "48": "stars.png"
+  },
+
+  "permissions": [
+    "tabs", "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["jquery.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "stars.png",
+    "default_popup": "color.html"
+  }
+
+
+}
