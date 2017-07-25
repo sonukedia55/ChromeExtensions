@@ -5,3 +5,5 @@
  > Just add this extension with your chrome.<br>
  > It provides you color web.<br>
  > You just need to click on the color and the code will be copied.<br>
+ <br>
+ <img src="screen.png" align="center"/>
